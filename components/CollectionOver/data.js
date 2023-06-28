@@ -1,0 +1,77 @@
+export const images = [
+  {
+    id: 1,
+    img: "/assets/collection1.png",
+    avatar: "/assets/avatar1.png",
+    title: "The Futr Abstr",
+    stock: 10,
+    highestBid: "0.25",
+  },
+  {
+    id: 2,
+    img: "/assets/collection2.png",
+    avatar: "/assets/avatar1.png",
+    title: "The Futr Abstr",
+    stock: 9,
+    highestBid: "0.23",
+  },
+  {
+    id: 3,
+    img: "/assets/collection3.png",
+    avatar: "/assets/avatar1.png",
+    title: "The Futr Abstr",
+    stock: 4,
+    highestBid: "0.16",
+  },
+  {
+    id: 4,
+    img: "/assets/collection4.png",
+    avatar: "/assets/avatar1.png",
+    title: "The Futr Abstr",
+    stock: 1,
+    highestBid: "0.10",
+  },
+];
+
+export const topCollections = [
+  {
+    id: 1,
+    avatar: "/assets/avatar2.png",
+    title: "CryptoFunks",
+    value: "19,769.39",
+    change: "+26.52%",
+    hasIncrease: true,
+  },
+  {
+    id: 2,
+    avatar: "/assets/avatar3.png",
+    title: "Fresnsware",
+    value: "2,769.39",
+    change: "-10.52%",
+    hasIncrease: false,
+  },
+  {
+    id: 3,
+    avatar: "/assets/avatar4.png",
+    title: "Cryptix",
+    value: "9,232.39",
+    change: "+2.52%",
+    hasIncrease: true,
+  },
+  {
+    id: 4,
+    avatar: "/assets/avatar5.png",
+    title: "PunkArt",
+    value: "3,769.39",
+    change: "+1.52%",
+    hasIncrease: true,
+  },
+  {
+    id: 5,
+    avatar: "/assets/avatar6.png",
+    title: "Art Crypto",
+    value: "10,769.39",
+    change: "-2.52%",
+    hasIncrease: false,
+  },
+];
