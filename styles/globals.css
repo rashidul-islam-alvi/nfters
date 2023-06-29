@@ -5,3 +5,7 @@
 :root {
   background: inherit;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
