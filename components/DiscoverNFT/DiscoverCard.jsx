@@ -9,7 +9,7 @@ const DiscoverCard = ({ data }) => {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col bg-[#fff] gap-5 lg:p-3  p-2 rounded-md hover:shadow-md ease-in duration-150 lg:rounded-[14px] cursor-pointer "
+      className="flex flex-col bg-[#fff] gap-5 lg:p-3  p-2 rounded-md hover:shadow-md  lg:rounded-[14px] cursor-pointer "
     >
       <div className="relative">
         <Image
