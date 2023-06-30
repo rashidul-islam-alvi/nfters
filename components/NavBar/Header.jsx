@@ -44,10 +44,10 @@ const Header = ({ handleDrawerMenuClick }) => {
       </section>
 
       <section className="hidden gap-10 lg:flex">
-        <button className="bg-[#3D00B7] rounded-[60px] inline-flex justify-center items-center gap-[10px] px-[40px] h-[50px] text-[#FFFFFF]">
+        <button className="bg-[#3D00B7] border-[1px] hover:bg-[#fff] hover:border-[#3D00B7] hover:border-[1px] ease-in-out duration-300 hover:text-[#3D00B7] rounded-[60px] inline-flex justify-center items-center gap-[10px] px-[40px] h-[50px] text-[#FFFFFF]">
           Upload
         </button>
-        <button className="inline-flex px-[22px] h-[50px] justify-center rounded-[60px] items-center gap-[10px] border-[2px] border-[#3D00B7]">
+        <button className="inline-flex hover:bg-[#3D00B7] hover:text-[#fff] px-[22px] h-[50px] justify-center rounded-[60px]  ease-in-out duration-300 items-center gap-[10px] border-[2px] border-[#3D00B7]">
           Connect Wallet
         </button>
       </section>

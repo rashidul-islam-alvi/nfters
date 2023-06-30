@@ -20,7 +20,7 @@ const Hero = () => {
             <br /> exclusive digital assets.
           </p>
           <div>
-            <button className="inline-flex lg:py-[20px] py-[15px] px-[40px] items-center justify-center gap-[10px] rounded-[60px] bg-[#3D00B7] text-[#FFFFFF]">
+            <button className="inline-flex hover:bg-[#6018f1] ease-in-out duration-150 lg:py-[20px] py-[15px] px-[40px] items-center justify-center gap-[10px] rounded-[60px] bg-[#3D00B7] text-[#FFFFFF]">
               Explore Now
             </button>
           </div>
@@ -59,7 +59,9 @@ const Hero = () => {
             loading="lazy"
           />
           <div className="relative w-[400px] h-[420px]">
-            <div className="z-20 w-[101px]  translate-x-[-110px] translate-y-[170px] absolute h-[101px] rotate-[30deg] rounded-full bg-[#FFE0D4]"></div>
+            <div className="z-20 w-[101px]  translate-x-[-110px] translate-y-[170px] absolute h-[101px] rotate-[30deg] rounded-full bg-[#FFE0D4]">
+              <h2></h2>
+            </div>
             <Image
               className="absolute rounded-[24px] translate-x-[-60px] "
               width={400}
